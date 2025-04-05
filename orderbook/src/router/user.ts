@@ -1,4 +1,4 @@
-import e, {Router} from "express";
+import {Router} from "express";
 import { loginschema,signupschema } from "../types";
 import  {prisma}  from "../db";
 import jwt from "jsonwebtoken";
